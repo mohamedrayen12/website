@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    background-image: linear-gradient(to right, #00458E , #BCFCF2);
+    background-repeat: repeat;
+    background-size: 100% contain;
+    background-position: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 99px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #BCFCF2;
+    text-shadow: 2px 2px 4px black;
+    transition: 1s all;
+}
+h1:hover {
+    color : #00458E;
+}
+.img_head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_head img {
+    border-radius: 80px;
+    transition: 1s all;
+    cursor:pointer;
+
+}
+.img_head img:hover {
+    width:220px;
+    height: 220px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navp {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navp p {
+    color: darkblue;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 30px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #ffffff, #BCFCF2);
+    transition: 1s all;
+
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 50px;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li a:visited {
+    color: darkblue;
+}
+nav ul li:hover {
+    background-image: linear-gradient(to right,#BCFCF2,darkblue );
+}
+
+footer p {
+    font-size: 50px;
+    text-align: center;
+}
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+footer p {
+    color: darkblue;
+}
+.style {
+    font-size: 50px;
+    color : #00458E;
+}
